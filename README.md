@@ -20,7 +20,10 @@ model-index:
     - name: NER F Score
       type: f_score
       value: 0.8577517086
+widget:
+- text: "SELECT shipping FROM users WHERE shipping = '201 Thayer St Providence RI 02912'"
 ---
+
 | Feature | Description |
 | --- | --- |
 | **Name** | `en_spacy_pii_fast` |
